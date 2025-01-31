@@ -1,0 +1,16 @@
+
+
+!define FL_CLOJURE-SERVICE(_color)                                 SPRITE_PUT(                                      fl_clojure-service, _color)
+!define FL_CLOJURE-SERVICE(_color, _scale)                         SPRITE_PUT(                                      fl_clojure-service, _color, _scale)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, FL CLOJURE-SERVICE,         fl_clojure-service, _color, _scale)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, FL CLOJURE-SERVICE,         fl_clojure-service, _color, _scale, _shape)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, FL CLOJURE-SERVICE, _label, fl_clojure-service, _color, _scale, _shape)
+skinparam folderBackgroundColor<<FL CLOJURE-SERVICE>> White
+
+
+!define FL_CLOJURE-SERVICE(_color)                                 SPRITE_PUT(                                      fl_clojure-service, _color)
+!define FL_CLOJURE-SERVICE(_color, _scale)                         SPRITE_PUT(                                      fl_clojure-service, _color, _scale)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias)                 SPRITE_ENT(  _alias, FL CLOJURE-SERVICE,         fl_clojure-service, _color, _scale)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias, _shape)         SPRITE_ENT(  _alias, FL CLOJURE-SERVICE,         fl_clojure-service, _color, _scale, _shape)
+!define FL_CLOJURE-SERVICE(_color, _scale, _alias, _shape, _label) SPRITE_ENT_L(_alias, FL CLOJURE-SERVICE, _label, fl_clojure-service, _color, _scale, _shape)
+skinparam folderBackgroundColor<<FL CLOJURE-SERVICE>> White
